@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Elige tu habitación</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="fondo">
+  <div class="contenedor">
+    <h1>Selecciona una habitación</h1>
+    <div class="habitacion" onclick="seleccionarHabitacion('Individual', 35350)">
+      <h3>Individual - $35350/noche</h3>
+      <p>Cama individual, Wi-Fi, desayuno incluido</p>
+    </div>
+    <div class="habitacion" onclick="seleccionarHabitacion('Doble', 47800)">
+      <h3>Doble - $47800/noche</h3>
+      <p>Cama doble, Wi-Fi, desayuno</p>
+    </div>
+    <div class="habitacion" onclick="seleccionarHabitacion('Suite', 78000)">
+      <h3>Suite - $55600/noche</h3>
+      <p>Cama matrimonial King Size, Wi-Fi, desayuno, cena</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
